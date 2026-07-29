@@ -34,25 +34,6 @@ class Time{
             	temp.h=temp.h+temp.m/60;
             	temp.m=temp.m%60;
         	}
-			/*if(temp.s>=60)
-			{
-				temp.s=temp.s-60;
-            	temp.m=1;
-			}
-			else
-			{
-				temp.m=0;
-			}
-			if(temp.m>=60)
-			{
-				temp.m=temp.m-60;
-				temp.h=1;
-			}
-			else
-			{
-				temp.h=0;
-			}
-			temp.h=temp.h+h+t.h;*/
 			return temp;
 		}
 		void display()
