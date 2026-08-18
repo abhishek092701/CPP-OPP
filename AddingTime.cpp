@@ -52,7 +52,7 @@ int main()
 	cout<<"Enter Hours Minutes Seconds: ";
 	cin>>a>>b>>c;
 	Time obj2(a,b,c);
-	cout<<endl;	
+	cout<<endl;
 	Time obj3;
 	obj1.display();
 	obj2.display();
